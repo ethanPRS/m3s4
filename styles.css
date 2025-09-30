@@ -18,6 +18,10 @@ h2 {
   margin-bottom: 10px;
 }
 
+h4 {
+  margin-bottom: 10px;
+}
+
 .price {
   font-size: 24px;
   font-weight: bold;
@@ -50,15 +54,30 @@ button:hover {
   width: 100%;
   height: 300px;
   margin: 10px;
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .pricing-card {
 
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 300px;
 
+}
+
+.lista li {
+  padding-left: 15px;
+  text-align: center;
 }
